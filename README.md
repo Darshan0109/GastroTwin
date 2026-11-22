@@ -120,17 +120,7 @@ The published runs used PyTorch with bf16 autocast on an NVIDIA A100 in Google C
 `run_experiments.py` records the PyTorch and segmentation-models-pytorch versions in
 `run_info.json`.
 
-## Citation
 
-```bibtex
-@inproceedings{bhatt2027gastrotwin,
-  author    = {Bhatt, Darshan and Patel, Himanshu and Debnath, Manna and Parmar, Meet},
-  title     = {Gastric Polyp Detection without Gastric Annotations Using a Stomach Digital Twin},
-  booktitle = {Bildverarbeitung f{\"u}r die Medizin 2027},
-  publisher = {Springer Vieweg},
-  year      = {2027}
-}
-```
 
 ## License
 
