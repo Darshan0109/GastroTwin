@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "GastroTwin"
+authors:
+  - family-names: Bhatt
+    given-names: Darshan
+  - family-names: Patel
+    given-names: Himanshu
+  - family-names: Debnath
+    given-names: Manna
+  - family-names: Parmar
+    given-names: Meet
+repository-code: "https://github.com/Darshan0109/GastroTwin"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Gastric Polyp Detection without Gastric Annotations Using a Stomach Digital Twin"
+  authors:
+    - family-names: Bhatt
+      given-names: Darshan
+    - family-names: Patel
+      given-names: Himanshu
+    - family-names: Debnath
+      given-names: Manna
+    - family-names: Parmar
+      given-names: Meet
+  collection-title: "Bildverarbeitung für die Medizin 2027"
+  publisher:
+    name: "Springer Vieweg"
+  year: 2027

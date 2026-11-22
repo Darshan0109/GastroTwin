@@ -1,0 +1,28 @@
+{
+ "n_gastric_polyps": 65,
+ "n_normal_test": 954,
+ "normal_classes": {
+  "Normal stomach": 686,
+  "Pylorus": 268
+ },
+ "n_colour_refs": 408,
+ "n_kvasir_train": 800,
+ "n_kvasir_test": 200,
+ "n_twin": 10000,
+ "n_syn": 3000,
+ "iters": 4000,
+ "batch": 32,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "seeds_ablation": [
+  0,
+  1,
+  2
+ ],
+ "n_audit": 583
+}

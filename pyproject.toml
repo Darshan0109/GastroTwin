@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gastrotwin"
+version = "1.0.0"
+description = "Stomach digital twin for gastric polyp detection without gastric annotations"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "segmentation-models-pytorch>=0.3.3",
+    "numpy",
+    "opencv-python-headless",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[tool.setuptools]
+packages = ["gastrotwin"]

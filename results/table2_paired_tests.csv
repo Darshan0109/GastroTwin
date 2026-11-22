@@ -1,0 +1,17 @@
+comparison,arch,dAUROC,95% CI,p
+D_kvasir+colour vs A_kvasir,unet_r34,-0.006,"[-0.031, +0.013]",0.668
+E_kvasir+cutpaste vs A_kvasir,unet_r34,-0.076,"[-0.133, -0.023]",0.007
+B_twin vs A_kvasir,unet_r34,-0.129,"[-0.181, -0.073]",<0.001
+C1k_kvasir+twin1k vs A_kvasir,unet_r34,+0.005,"[-0.009, +0.023]",0.602
+C3k_kvasir+twin3k vs A_kvasir,unet_r34,+0.002,"[-0.022, +0.028]",0.879
+C_kvasir+twin vs A_kvasir,unet_r34,-0.023,"[-0.060, +0.012]",0.227
+F_kvasir+twin+cutpaste vs A_kvasir,unet_r34,-0.121,"[-0.189, -0.056]",<0.001
+C3k_kvasir+twin3k vs E_kvasir+cutpaste,unet_r34,+0.077,"[+0.033, +0.129]",<0.001
+C_kvasir+twin vs E_kvasir+cutpaste,unet_r34,+0.053,"[-0.002, +0.112]",0.063
+F_kvasir+twin+cutpaste vs E_kvasir+cutpaste,unet_r34,-0.046,"[-0.092, -0.004]",0.028
+E_kvasir+cutpaste vs A_kvasir,unet_mitb2,-0.068,"[-0.129, -0.010]",0.022
+C1k_kvasir+twin1k vs A_kvasir,unet_mitb2,+0.037,"[+0.018, +0.060]",<0.001
+C3k_kvasir+twin3k vs A_kvasir,unet_mitb2,+0.054,"[+0.031, +0.079]",<0.001
+C_kvasir+twin vs A_kvasir,unet_mitb2,+0.032,"[+0.009, +0.056]",0.008
+C3k_kvasir+twin3k vs E_kvasir+cutpaste,unet_mitb2,+0.121,"[+0.073, +0.176]",<0.001
+C_kvasir+twin vs E_kvasir+cutpaste,unet_mitb2,+0.100,"[+0.048, +0.157]",<0.001
